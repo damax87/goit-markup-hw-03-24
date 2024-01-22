@@ -6,20 +6,18 @@
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', serif;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
 }
 
 .button {
     cursor: pointer;
     background-color: #F5F4FA;
-    color: #212121;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 1px;
-    text-align: center;
     border: none;
     border-radius: 4px;
 }
