@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -11,7 +15,7 @@
 </head>
 <body>
 <!--Header-->
-    <header class="header">
+    <header class="header container">
 <!-- Logo -->
         <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
 <!-- Navigation -->
@@ -22,7 +26,7 @@
             <li><a class="link" href="./contacts.html">Contacts</a></li>
         </ul>
     </nav>
-    <div>
+    <div class="header-contacts">
         <a class="header-contacts-item" href="info@devstudio.com">info@devstudio.com</a></li>
         <a class="header-contacts-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </div>
@@ -30,12 +34,12 @@
 <!-- Main -->
     <main>
 <!-- Hero -->
-        <section class="hero">
-            <h1 class="hero-title">An effective solution for <br> your business</h1>
+        <section class="hero container">
+            <h1 class="hero-title">Effective solutions for <br> your business</h1>
             <button type="button" class="hero-button button">Order a service</button>
         </section>
 <!-- Advantages -->
-        <section>
+        <section class="container">
             <h2 class="advantages-title">Our advantages</h2>
             <ul class="advantages-list">
                 <li class="advantages-item">
@@ -57,8 +61,8 @@
             </ul>
         </section>
 <!-- What apps we doing -->
-        <section>
-            <h2>What apps we doing</h2>
+        <section class="container">
+            <h2>What we do</h2>
             <ul class="doing-list">
                 <li class="doing-item">
                     <a href=""><img src="./images/pcImg.jpg" alt="PC apps" width="370"></a>
@@ -72,34 +76,41 @@
             </ul>
         </section>
 <!-- Our team -->
-        <section>
+        <section class="container">
             <h2>Our team</h2>
             <ul class="team-list">
                 <li class="team-list-item">
-                    <a href=""><img src="./images/teamImg1.jpg" alt="Ihor Demyanenko" width="270"></a>
-                    <h3 class="team-name">Ihor Demyanenko</h3>
-                    <p class="job-title">Product Designer</p>
+                    <a href=""><img src="./images/teamImg1.jpg" alt="Ihor Demyanenko" width="270">
+                        <h3 class="team-name">Ihor Demyanenko</h3>
+                        <p class="job-title">Product Designer</p>
+                    </a> 
                 </li>
                 <li class="team-list-item">
-                    <a href=""><img src="./images/teamImg2.jpg" alt="Olga Repina" width="270"></a>
-                    <h3 class="team-name">Olga Repina</h3>
-                    <p class="job-title">Frontend Developer</p>
+                    <a href=""><img src="./images/teamImg2.jpg" alt="Olga Repina" width="270">
+                        <h3 class="team-name">Olga Repina</h3>
+                        <p class="job-title">Frontend Developer</p>
+                    </a>
+                    
                 </li>
                 <li class="team-list-item">
-                    <a href=""><img src="./images/teamImg3.jpg" alt="Mykola Tarasov" width="270"></a>
-                    <h3 class="team-name">Mykola Tarasov</h3>
-                    <p class="job-title">Marketing</p>
+                    <a href=""><img src="./images/teamImg3.jpg" alt="Mykola Tarasov" width="270">
+                        <h3 class="team-name">Mykola Tarasov</h3>
+                        <p class="job-title">Marketing</p>
+                    </a>
+                    
                 </li>
                 <li class="team-list-item">
-                    <a href=""><img src="./images/teamImg4.jpg" alt="Mykhailo Yermakov" width="270"></a>
-                    <h3 class="team-name">Mykhailo Yermakov</h3>
-                    <p class="job-title">UI Designer</p>
+                    <a href=""><img src="./images/teamImg4.jpg" alt="Mykhailo Yermakov" width="270">
+                        <h3 class="team-name">Mykhailo Yermakov</h3>
+                        <p class="job-title">UI Designer</p>
+                    </a>
+                    
                 </li>
             </ul>
         </section>
     </main>
 <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer container">
 <!-- Logo -->
         <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
 <!-- Address -->

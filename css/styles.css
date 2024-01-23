@@ -8,6 +8,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
 }
 
 .button {
@@ -60,10 +64,17 @@ p {
 
 ul {
     list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 address {
     font-style: normal;
+}
+
+.container {
+    width: 1200px;
 }
 
 .logo {
@@ -71,6 +82,7 @@ address {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 1.5px;
+
 }
 .logo-web {
     color: var(--accent-color);
@@ -99,6 +111,29 @@ address {
     color: var(--accent-color);
 }
 
+.header {
+    border-bottom: solid 1px;
+    border-color: #ECECEC;
+
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+    padding: 0, 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 40px;
+}
+
 .header-contacts-item {
     color: var(--secondary-color);
     font-weight: 500;
@@ -115,12 +150,22 @@ address {
 
 .hero {
     background-color: var(--background-color);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
 }
 
 .hero-title {
     color: var(--white-color);
     text-transform: uppercase;
     text-align: center;
+    align-items: center;
+
+    
 }
 
 .hero-button {
@@ -128,10 +173,47 @@ address {
     line-height: 1.8;
     background-color: var(--accent-color);
     color: var(--white-color);
+
+    width: 200px;
+    height: 50px;
 }
 
 .advantages-title {
     display: none;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 30px;
+    width: 1170px;
+    height: 101px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.advantages-item {
+    width: 270px;
+    height: 75px;
+}
+
+.doing-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.team-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-name {
@@ -145,6 +227,8 @@ address {
 
 .footer {
     background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-studio-footer {
@@ -163,6 +247,13 @@ address {
     opacity: 0.6;
 }
 
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    height: 38px;
+}
+
 .project-name {
     font-weight: 700;
     font-size: 18px;
@@ -173,4 +264,20 @@ address {
 .project-subvision {
     font-size: 16px;
     line-height: 1.8;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: solid 1px;
+    border-color: #EEEEEE;
 }
