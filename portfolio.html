@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <!--Header-->
-<header class="header container">
-    <!-- Logo -->
-            <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-    <!-- Navigation -->
+<header class="header">
+    <div class="container">
         <nav>
+            <!-- Logo -->
+            <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+            <!-- Navigation -->
             <ul class="navigation">
                 <li><a class="link" href="./index.html">Studio</a></li>
                 <li><a class="link current" href="./portfolio.html">Portfolio</a></li>
@@ -30,10 +31,12 @@
             <a class="header-contacts-item" href="info@devstudio.com">info@devstudio.com</a></li>
             <a class="header-contacts-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </div>
+    </div>
         </header>
 <!-- Main -->
         <main class="container">
     <!-- Buttons list -->
+    <section class="section no-padding-bottom">
     <ul class="buttons-list">
         <li>
             <button class="button" type="button">All</button>
@@ -51,7 +54,9 @@
             <button class="button" type="button">Marketing</button>
         </li>
     </ul>
+</section>
     <!-- Projects list -->
+    <section class="section no-padding-top">
     <ul class="project-list">
         <li class="project-item">
             <a href=""><img src="./images/projectImg1.jpg" alt="Web-site Technocrack" width="370">
@@ -68,7 +73,7 @@
         <li class="project-item">
             <a href=""><img src="./images/projectImg3.jpg" alt="Restaurant Seafood" width="370">
                 <h3 class="project-name">Restaurant Seafood</h3>
-                <p class="project-subvision">App</p>
+                <p class="project-subvision">Apps</p>
             </a>
         </li>
         <li class="project-item">
@@ -80,7 +85,7 @@
         <li class="project-item">
             <a href=""><img src="./images/projectImg5.jpg" alt="Project Boxes" width="370">
                 <h3 class="project-name">Project Boxes</h3>
-                <p class="project-subvision">App</p>
+                <p class="project-subvision">Apps</p>
             </a>
         </li>
         <li class="project-item">
@@ -95,32 +100,35 @@
                 <p class="project-subvision">Design</p>
             </a>
         </li>
-        <li class="projects-item">
+        <li class="project-item">
             <a href=""> <img src="./images/projectImg8.jpg" alt="Project LAB" width="370">
                 <h3 class="project-name">Project LAB</h3>
                 <p class="project-subvision">Marketing</p>
             </a>
         </li>
-        <li class="projects-item">
+        <li class="project-item">
             <a href=""><img src="./images/projectImg9.jpg" alt="Growing Business" width="370">
                 <h3 class="project-name">Growing Business</h3>
-                <p class="project-subvision">App</p>
+                <p class="project-subvision">Apps</p>
             </a>
         </li>
     </ul>
+</section>
         </main>
 <!-- Footer -->
-<footer class="footer container">
-    <!-- Logo -->
-            <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
-    <!-- Address -->
-            <address>
-                <div>
-                    <p class="footer-address">Kyiv, 26 Lesi Ukrainky Ave</p>
-                    <a class="footer-contacts-item" href="info@devstudio.com">info@devstudio.com</a> <br>
-                    <a class="footer-contacts-item" href="tel:+380961111111">+38 096 111 11 11</a>
-                </div>
-            </address>
-        </footer>
+<footer class="footer">
+    <div class="container">
+<!-- Logo -->
+        <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
+<!-- Address -->
+        <address>
+            <div>
+                <p class="footer-address">Kyiv, 26 Lesi Ukrainky Ave</p>
+                <a class="footer-contacts-item email" href="info@devstudio.com">info@devstudio.com</a> <br>
+                <a class="footer-contacts-item" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+        </address>
+    </div>
+    </footer>
 </body>
 </html>
