@@ -148,6 +148,10 @@ address {
 }
 
 .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -167,24 +171,30 @@ address {
 .header {
     border-bottom: solid 1px;
     border-color: #ECECEC;
+}
 
-    /* display: flex;
-    height: 80px;
-    justify-content: space-between;
-    align-items: center; */
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .navigation {
-    /* display: flex;
-    gap: 50px; */
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
 }
 
 .header-contacts {
-    /* display: flex;
-    gap: 40px; */
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
 }
 
 .header-contacts-item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
@@ -198,10 +208,11 @@ address {
 }
 
 .hero {
-    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background-color: var(--background-color);
 }
 
 .hero-title {
